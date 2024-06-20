@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
                 switch (data.weather[0].main) {
                     case "Clouds":
-                        weatherIcon.src = "cloudy.png";
+                        weatherIcon.src = "few-clouds.png";
                         break;
                     case "Clear":
                         weatherIcon.src = "clear.png";
