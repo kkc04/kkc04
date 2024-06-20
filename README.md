@@ -2,7 +2,7 @@
 -  a Pre-Final yearite at IITG
 - 🌱 I’m currently learning Full Stack Developement
 - 💞️ I’m looking to collaborate on a cpp project
-- 📫 Reach Me at kalyanichavan626gamil.com.
+- 📫 Reach Me at kalyanichavan626gmail.com.
 
 
 <!---
