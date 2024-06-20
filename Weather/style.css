@@ -1,5 +1,4 @@
 .app{
-    background-color:rgb(43, 141, 168);
     width:100%;
     height:100%;
     color:white;
@@ -12,13 +11,12 @@
     width:100%;
     display:flex;
     flex-direction:row;
-    background-color:rgb(28, 91, 91);
     color:black;
 }
 #heading{
     margin:13px;
 }
-#btn{
+#submitText{
     margin:15px;
     width:80%;
     height:40px;
@@ -26,7 +24,7 @@
     border:1px solid black;
     border-radius:20px;
 }
-#submitBtn{
+#submitOption{
     margin: 14px;;
     width:50px;
     height:50px;
@@ -34,13 +32,20 @@
     border:1px solid white;
     cursor:pointer;
 }
-#submitBtn img{
+#submitOption img{
     width:18px;
 }
 
 .weather{
-    margin-left: 500px;
-    justify-content: center;
+    
+    width:60%;
+    height:80%px;
+    margin-left:20%;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    border:2px solid white;
+    border-radius:30px;
     
 }
 .weather img{
@@ -58,7 +63,9 @@
 }
 .humidity{
     width:200px;
+
 }
+
 .Wind img{
     height:30px;
     width:30px;
@@ -70,9 +77,24 @@
     width:100%;
     display:flex;
     flex-direction: row;
+    justify-content:center;
 }
-.col{
+
+.weather_detail{
     display:flex;
     flex-direction: row;
-    font-size:larger;
+    justify-content: center;
 }
+body{
+    background-image:url(weather.jpg);
+    background-size:cover;
+}
+.weather_col{
+    display:flex;
+    flex-direction: column;
+    justify-content:first baseline;
+}
+.temp{
+    font-weight: bolder;
+}
+  
