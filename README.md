@@ -1,7 +1,7 @@
 - 👋 Hi, I’m Kalyani Chavan
 -  a Pre-Final yearite at IITG
-- 🌱 I’m currently learning MongoDb
-- 💞️ I’m looking to collaborate on a Web-Dev project
+- 🌱 I’m currently learning Full Stack Developement
+- 💞️ I’m looking to collaborate on a cpp project
 - 📫 Reach Me at kalyanichavan626gamil.com.
 
 
