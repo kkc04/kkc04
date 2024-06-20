@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
                 switch (data.weather[0].main) {
                     case "Clouds":
-                        weatherIcon.src = "cloudy.jpeg";
+                        weatherIcon.src = "cloudy.png";
                         break;
                     case "Clear":
                         weatherIcon.src = "clear.png";
@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         weatherIcon.src = "mist.jpeg";
                         break;
                 }
-                document.querySelector(".weather").style.display = "block";
+                document.querySelector(".weather").style.display = "flex";
                 document.querySelector(".error").style.display = "none";
             }
         } catch (error) {
@@ -50,3 +50,5 @@ document.addEventListener("DOMContentLoaded", function() {
         FetchWeather(SubmitBox.value);
     });
 });
+                
+                
