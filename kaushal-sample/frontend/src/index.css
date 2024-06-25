@@ -1,0 +1,678 @@
+ /* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(my-handcraft.jpeg);
+  background-size:cover;
+  
+  color: #333;
+}
+
+h1, h2, h3 {
+  color: #444;
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+.navbar-left a,
+.navbar-right a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+
+.navbar-left a:hover,
+.navbar-right a:hover,
+.navbar-left .active,
+.navbar-right .active {
+  color: #ff6347; /* Tomato color */
+}
+
+.navbar-right input {
+  padding: 5px;
+  border-radius: 3px;
+  border: none;
+}
+
+/* Home Page Styles */
+.home {
+  padding: 20px;
+  text-align: left;
+}
+
+.home h1 {
+  margin-bottom: 20px;
+  margin-left:250px;
+  font-family:cursive;
+}
+
+.home h3{
+  margin-left:240px;
+  font-family:cursive;
+}
+
+.home p{
+
+   
+  color:black;
+  font-size:larger;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left:260px;
+  margin-right:40px;
+}
+
+
+.home img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+/* Shop Page Styles */
+.shop {
+  padding: 20px;
+}
+
+.shop h2 {
+  margin-top: 20px;
+  color: #ff6347;
+}
+
+.shop .categories,
+.shop .gifts,
+.shop .decor {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.shop .categories div,
+.shop .gifts div,
+.shop .decor div {
+  flex: 1 1 30%;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Wholesale Buy Page Styles */
+.wholesale-buy {
+  padding: 20px;
+}
+
+.wholesale-buy h2 {
+  color: #ff6347;
+}
+
+.wholesale-buy p {
+  margin: 10px 0;
+}
+
+/* Our Story Page Styles */
+.our-story {
+  padding: 20px;
+  text-align: center;
+}
+
+.our-story video {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 20px;
+}
+
+/* Contact Us Page Styles */
+.contact-us {
+  padding: 20px;
+}
+
+.contact-us h2 {
+  color: #ff6347;
+}
+
+.contact-us .team {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.contact-us .team div {
+  flex: 1 1 30%;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Offers Page Styles */
+.offers {
+  padding: 20px;
+}
+
+.offers h2 {
+  color: #ff6347;
+}
+
+.offers .offer-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.offers .offer-list div {
+  flex: 1 1 30%;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ 
+
+/* Styles for CartItem */
+
+.cart {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart h2 {
+  color: #ff6347;
+  margin-bottom: 20px;
+}
+
+.cart-items {
+  margin-bottom: 20px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.cart-item button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #ff6347;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.cart-item button:hover {
+  background-color: #e55337;
+}
+
+.cart-total {
+  margin-bottom: 20px;
+}
+
+.cart-total h3 {
+  color: #444;
+}
+
+.checkout-button {
+  padding: 10px 20px;
+  background-color: #ff6347;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.checkout-button:hover {
+  background-color: #e55337;
+}
+/* styles for productlist */
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.product-item {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+  width: 200px;
+}
+
+.product-item img {
+  width: 100%;
+  height: auto;
+}
+
+.product-item button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.product-item button:hover {
+  background-color: #0056b3;
+}
+
+/* styles for footer */
+.footer {
+  background-color: #675151; /* Dark red background */
+  color: white;
+  padding: 20px 0;
+  font-size: 14px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.footer-section {
+  flex: 1;
+  padding: 20px;
+  min-width: 250px;
+}
+
+.footer-section h2 {
+  color: #1f100a; /* Golden yellow for headings */
+  border-bottom: 2px solid #ffc107;
+  margin-bottom: 10px;
+}
+
+.footer-section p {
+  color: #f0e4d7; /* Light beige for text */
+}
+
+.footer-section a {
+  color: #1c0e0a;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 10px 0;
+}
+
+.socials {
+  margin-top: 20px;
+}
+
+.socials a {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.socials img {
+  width: 30px;
+  height: 30px;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 10px;
+  background-color: #732727; /* Darker red for footer bottom */
+  color: #f0e4d7;
+}
+
+
+/* Styles for Auth-form */
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-color: #fff3e0; /* Light orange background */
+}
+
+.auth-form {
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 2px solid #ff6f61;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.auth-form h2 {
+  color: #8b0000; /* Dark red for headings */
+  margin-bottom: 20px;
+}
+
+.auth-form input,
+.auth-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.auth-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.auth-form button:hover {
+  background-color: #e65a50;
+}
+
+.auth-form a {
+  color: #8b0000;
+  text-decoration: none;
+  display: block;
+  margin-top: 10px;
+}
+
+.auth-form .forgot-password-link {
+  margin-top: 20px;
+}
+
+.auth-form a:hover {
+  text-decoration: underline;
+}
+
+.user-type-toggle {
+  margin: 10px 0;
+  text-align: left;
+}
+
+.user-type-toggle label {
+  margin-right: 15px;
+  font-size: 14px;
+}
+
+/* styles for forgot password */
+.forgot-password-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-color: #fff3e0; /* Light orange background */
+}
+
+.forgot-password-form {
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 2px solid #ff6f61;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.forgot-password-form h2 {
+  color: #8b0000; /* Dark red for headings */
+  margin-bottom: 20px;
+}
+
+.forgot-password-form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.forgot-password-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.forgot-password-form button:hover {
+  background-color: #e65a50;
+}
+ 
+
+ /* authStyles.css */
+
+/* Form Container */
+.auth-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+/* Form Title */
+.auth-title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Form Fields */
+.auth-form-group {
+  margin-bottom: 20px;
+}
+
+.auth-form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.auth-form-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Form Button */
+.auth-form-btn {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.auth-form-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Form Button - Seller */
+.auth-form-btn-seller {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745; /* Green color */
+  color: #fff;
+  cursor: pointer;
+}
+
+.auth-form-btn-seller:hover {
+  background-color: #218838; /* Darker shade of green */
+}
+
+/* Forgot Password Link */
+.auth-forgot-password {
+  text-align: right;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* Sign Up Link */
+.auth-signup-link {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+/* Sign Up as Seller Link */
+.auth-signup-seller-link {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 20px;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  position: relative;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modalContent {
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button.closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  position: relative;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modalContent {
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  border: none;
+}
+
+button.closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}

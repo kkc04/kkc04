@@ -1,0 +1,27 @@
+/* src/components/Navbar.css */
+.navbar {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color:rgb(99, 78, 78);
+    color:white;
+  }
+  
+  .navbar-left a,
+  .navbar-right a {
+    margin: 0 10px;
+    text-decoration: none;
+    color:white;
+  }
+  
+  .navbar-left .active,
+  .navbar-right .active {
+    font-weight: bold;
+    color: #0a1b2d;
+  }
+  
+  .navbar-right input {
+    padding: 5px;
+  }
+  
