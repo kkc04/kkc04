@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+   
+    background-size: cover;
+}
+h1 {
+    color: #333;
+}
+form {
+    margin-bottom: 20px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    background: #fff;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #d5cfcf;
+}
+
+.suggestion{
+    margin-left:50px;
+    display:flex;
+    flex-direction: row;
+}
+
+#kurti{
+    height:500px;
+    width:30%;
+    background-image:url(../half_kurti.jpg);
+    background-size: cover;
+    color:black;
+}
+
+#lehenga{
+    height:500px;
+    width:30%;
+    background-image:url(../lehenga.webp);
+    background-size: cover;
+    color:black;
+}
+#hoodie{
+    height:500px;
+    width:30%;
+    background-image:url(../hoodie.jpeg);
+    background-size: cover;
+    color:black;
+}
